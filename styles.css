@@ -1,0 +1,126 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #CAE6B2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.next-button {
+    display: block;
+    margin: 20px auto; /* Centraliza o botão horizontalmente */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #543310;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next-button:hover {
+    background-color: #543310;
+}
+
+.centered-text {
+    text-align: justify;
+  }
+
+.login-card {
+    background-color: #F6FAB9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+}
+
+.login-card h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #543310;
+    margin-bottom: 10px;
+}
+
+.login-card input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-card button {
+    background-color: #543310;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-card button:hover {
+    background-color: #543310;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center; /* Centralizar as fotos horizontalmente */
+    gap: 10px; /* Espaço entre as fotos */
+}
+
+
+.hidden {
+    display: none;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.moment-photo {
+    width: 300px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 2px solid #543310; /* Borda fofa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #e83e8c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #d6336c;
+}

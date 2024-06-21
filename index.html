@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Especial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-card">
+        <h1>Bem-vinda!</h1>
+        <p>Por favor, insira o apelido que você me chama para continuar.</p>
+        <input type="password" id="nickname" placeholder="Apelido">
+        <button onclick="checkNickname()">Entrar</button>
+        <p id="error-message" class="hidden">Apelido incorreto. Tente novamente.</p>
+    </div>
+
+    <div id="content" class="hidden">
+        <main>
+            </section>
+            <section id="gallery">
+                <h2>Nossos Momentos</h2>
+                <p class="centered-text">Nos conhecemos no ano de 2023 e logo você se mostrou uma garota tão especial, inteligente, bonita e fofa. Cultivamos uma amizade muito grande e nos conectamos tão rápido, como se nos conhecêssemos há muito tempo. Nesse quase um ano, inevitavelmente nos apaixonamos um pelo outro e iniciamos nosso teatro de fingimento de amizade. Flertamos por um tempo e, em meio a toda essa confusão, você quis saber o que realmente seria nosso relacionamento naquela segunda-feira às 23:00 da noite. Hoje, finalmente, podemos desfrutar desse amor. Cada momento com você tem sido tão incrível e espero muito mais por vir, se Deus me der essa bênção. Quero compartilhar cada vez mais de mim e da minha vida com você.</p>
+                <div class="photo-container">
+                    <img src="fotofofa.jpeg" alt="Nosso primeiro encontro" class="moment-photo">
+                    <img src="fotofunny.jpeg" alt="No parque" class="moment-photo">
+                </div>
+                <button class="next-button" onclick="nextPage()">Próxima Página</button>
+            </section>
+        </main>
+    </div>
+    <style>
+        /* Responsive adjustments */
+@media (max-width: 600px) {
+    .photo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .moment-photo {
+        width: 90%; /* Adjust photo size for smaller screens */
+        max-width: none;
+    }
+
+    main {
+        width: 100%;
+        box-shadow: none;
+        padding: 10px;
+    }
+}
+    </style>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
